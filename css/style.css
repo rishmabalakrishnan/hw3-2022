@@ -1,0 +1,175 @@
+/* 3. Style the body of the page with: */
+body {
+    /* a. Default text is Arial font with Verdana as a fallback option */
+    font-family: Arial, Verdana;
+    /* b. Black background (use hexadecimal values) */
+    background-color: #000000;
+    /* c. White font (use hexadecimal values) */
+    color: #ffffff;
+    /* d. Margin of 20px on the top and sides. None on the bottom */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* 4. Style the h1 heading with: */
+h1 {
+    /* a. 42px centered font */
+    font-size: 42px;
+    text-align: center;
+    /* Padding of 15px */
+    padding: 15px;
+}
+
+/* 5. Style the h2 heading with: */
+h2 {
+    /* a. 30px dark gray font (#0D0D0D) */
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+/* 6. Style the default paragraphs with: */
+p {
+    /* a. 24px font */
+    font-size: 24px;
+    /* b. Padding of 10px on the top and left only */
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* 7. Style the default style for images so that: */
+img {
+    /* a. All images are 250px wide (do not set a height) */
+    width: 250px;
+    /* b. All images are centered */
+    /* HOW TO DO THIS IN ONE LINE? */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* c. All images have a white 10px dashed border */
+    border-style: dashed;
+    border-width: 10px;
+    border-color: white;
+}
+
+/* 8. Style the default div elements with: */
+div {
+    /* a. A flexible height of at least 125px tall */
+    /* IS THIS HOW YOU SET FLEXIBLE HEIGHT?? */
+    height: auto;
+    min-height: 125px;
+    /* b. Padding of 20px on all sides */
+    padding: 20px;
+    /* c. A 3px solid white border on all sides */
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+
+/* 9. Style the introduction class with: */
+.introduction {
+    /* a. 15px border-radius (to curve the edges) */
+    border-radius: 15px;
+    /* b. Margin of 15px margin on the top */
+    margin-top: 15px;
+    /* c. Double-spaced text */
+    line-height: 2;
+}
+
+/* 10. Style the red class with: */
+.red {
+    /* a. Background color is hexadecimal value for red */
+    background-color: #ff0000;
+    /* b. Text is aligned on the right side */
+    text-align: right;
+    /* c. A left margin of 50px */
+    margin-left: 50px;
+    /* d. A border of 2px on the bottom and 5px on the left */
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+
+/* 11. The blue div has the following styles: */
+div.blue {
+    /* a. Background color is hex value for blue */
+    background-color: #0000ff;
+    /* b. Text is aligned on the left side */
+    text-align: right;
+    /* c. A right margin of 50px */
+    margin-right: 50px;
+    /* d. A border of 5px on the right and 2px on the top */
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    /* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.  */
+
+    /* e. The heading and paragraph text should use #C4C4C4 */
+    color: #C4C4C4;
+}
+
+div.blue h2 {
+    color: #C4C4C4;
+}
+
+/* 12. The yellow div has the following styles: */
+div.yellow {
+    /* a. Background color is hexadecimal value for yellow */
+    background-color: #ffff00;
+    /* b. Text is aligned on the right side */
+    text-align: right;
+    /* c. A left margin of 50px */
+    margin-left: 50px;
+    /* d. A border of 2px on the bottom and 5px on the left */
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    /* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too */
+
+    /* e. The paragraph text should be #707070 */
+
+}
+
+div.yellow p{
+    color: #707070;
+}
+
+/* 13. The green div has the following styles: */
+div.green {
+    /* a. The background color is hexadecimal value for green (You must use #00EB00, #008500, or #00D800) */
+    background-color: #008500;
+    /* b. Text is aligned on the left side */
+    text-align: left;
+    /* c. A right margin of 50px */
+    margin-right: 50px;
+    /* d. A border of 5px on the right and 2px on the top */
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+}
+
+/* Style the default footer elements with: */
+footer {
+    /* a. A gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000 */
+    background: #000000;
+    background: linear-gradient(90deg ,#000000, #0000ff 25%, #0066ff 70%, #000000 100%);
+    /* b. A 5px solid white border */
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+/* 14. Style any paragraphs with the footer with: */
+footer p {
+    /* a. 20px text that is aligned to the right */
+    font-size: 20px;
+    text-align: right;
+    /* b. Padding of 15px on the top, right, and bottom only. (No padding on the left) */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
